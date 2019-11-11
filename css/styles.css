@@ -30,3 +30,7 @@ ul li a:hover{
     font-size: 50px;
     font-family: 'Nosifer', cursive;
 }
+#gallery{
+    background-color: blue;
+    padding: 20px;
+}
