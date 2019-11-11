@@ -31,6 +31,14 @@ ul li a:hover{
     font-family: 'Nosifer', cursive;
 }
 #gallery{
-    background-color: blue;
+    background-color:orange;
     padding: 20px;
+}
+#order #top{
+margin-bottom: 4%;
+}
+#about {
+    height:50vh;
+    font-size:2em;
+    background-color: aqua;
 }
