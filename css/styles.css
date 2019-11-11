@@ -1,6 +1,6 @@
 .header{
     background: url("https://bit.ly/2CyotpO")no-repeat center center/cover;
-    height: 100vh;
+    height: 80vh;
     color: #fff; 
 }
 ul li{
@@ -22,5 +22,11 @@ ul li a{
 }
 ul li a:hover{
     background-color: #fff;
-    color: orange;
+    color:black;
+}
+.header p{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Nosifer', cursive;
 }
