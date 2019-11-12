@@ -110,7 +110,7 @@
                 <div class="row" style="display:flex; padding-top: 70px; justify-content: center;">
                     <div class="col-md-3">
                         <label>SIZE:</label>
-                        <select name="browser-default custom-select" id="top">
+                        <select name="browser-default custom-select" id="size">
                             <option value="">Choose option</option>
                             <option value="1000">Small ksh.1000</option>
                             <option value="800">medium ksh.800</option>
@@ -119,7 +119,7 @@
                     </div>
                     <div class="col-md-3">
                         <label>CRUST:</label>
-                        <select name="browser-default custom-select" id="top">
+                        <select name="browser-default custom-select" id="crust">
                             <option value="">Choose option</option>
                             <option value="1500">crispy ksh.1500</option>
                             <option value="1400">stuffed ksh.1400</option>
@@ -129,7 +129,7 @@
                     </div>
                     <div class="col-md-3">
                         <label>TOPPINGS</label>
-                        <select name="browser-default custom-select" id="top">
+                        <select name="browser-default custom-select" id="topping">
                             <option value="">Choose option</option>
                             <option value="500">pepperoni ksh.500</option>
                             <option value="800">mushrooms ksh.800</option>
@@ -140,16 +140,22 @@
                     </div>
                     <div class="col-md-3">
                         <label for="sel1">QUANTITY:</label>
-                        <select name="browser-default custom-select" id="top">
-                            <option value="">2</option>
-                            <option value="">1</option>
-                            <option value="">500</option>
-                            <option value="">250</option>
+                        <select name="browser-default custom-select" id="quantity">
+                            <option value="2">2</option>
+                            <option value="1">1</option>
+                            <option value="500">500</option>
+                            <option value="250">250</option>
                         </select>
                     </div>
                     <div>
-                        <button type="place order" class="btn btn-primary" id="submit" style="margin-top: 90px">PLACE
-                            ORDER</button>
+                        <button type="button" class="btn btn-primary" id="test" style="margin-top: 90px" ;>Store Pick Up
+                </button>
+
+                            <button type="button" class="btn btn-primary" id="test1" style="margin-top: 90px" ;>Home Delivery
+                                    </button>
+                            
+
+
                     </div>
             </form>
         </div>
@@ -157,15 +163,15 @@
     <div class="container my-5">
         <div style="text-align:center">
             <h2>Contact Us</h2>
-            <p>For more information you can leave us a message:</p>
+            <p>For more information or questions you can leave us a message:</p>
         </div>
         <div class="row">
             <div class="column">
                 <form action="/action_page.php">
-                    <label for="fname">First Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                    <label for="lname">Last Name</label>
-                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="firstname">First Name</label>
+                    <input type="text" id="firstname" name="firstname" placeholder="Your name">
+                    <label for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" placeholder="Your last name">
                     <label for="city">City</label>
                     <select id="city" name="city">
                         <option value="nairobi">Nairobi</option>
@@ -173,13 +179,15 @@
                         <option value="thika">Thika</option>
                     </select>
                     <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.."
+                    <textarea id="subject" name="subject" placeholder="Write something"
                         style="height:170px"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
         </div>
     </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/test.js"></script>
 </body>
 
 </html>
