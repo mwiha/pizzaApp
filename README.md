@@ -8,7 +8,7 @@ Alice Mwihaki
 
 ## Set Up instructions ##
 - git clone or download the zip file.
-
+  https://github.com/mwiha/pizzaApp.git
 - Extract the zip file.
 - cd project folder.
 - launch the index.html file.
