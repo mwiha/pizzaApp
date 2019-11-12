@@ -1,7 +1,7 @@
 .header{
     background: url("https://bit.ly/2CyotpO")no-repeat center center/cover;
     height: 80vh;
-    color: #fff; 
+    color: #fff;
 }
 ul li{
     float:right;
@@ -37,8 +37,17 @@ ul li a:hover{
 #order #top{
 margin-bottom: 4%;
 }
-#about {
-    height:50vh;
-    font-size:2em;
-    background-color: aqua;
-}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
