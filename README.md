@@ -4,11 +4,11 @@
 
 # Description #
 
-#Set Up instructions #
+# Set Up instructions #
 
-#Technology Used #
+# Technology Used #
 
-#Known Bugs #
+# Known Bugs #
 
 # Contacts Information #
 
