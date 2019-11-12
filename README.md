@@ -17,7 +17,10 @@ Alice Mwihaki
 - when you open the web you find the landing page.
 - On the nav bar you click the order.
 - You select the size,crust,toppings and quantity.
-- 
+- then you select either store pick up or home delivery.
+- You will see alert on the top of the page.
+- The last part you fill were you are asked to fill.
+
 ## Technology Used ##
 - Html
 - css
