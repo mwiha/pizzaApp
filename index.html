@@ -140,28 +140,22 @@
                     </div>
                     <div class="col-md-3">
                         <label for="sel1">QUANTITY:</label>
-                        <select name="browser-default custom-select" id="quantity">
-                            <option value="2">2</option>
-                            <option value="1">1</option>
-                            <option value="500">500</option>
-                            <option value="250">250</option>
-                        </select>
+                        <input type="number" min="1" id="quantity" placeholder="How many would you like">
                     </div>
-                    <div>
+                    
+                    <div class=" col-md-12 m-4 text-center">
+                        <h4 style="padding-top:50px;">Click on delivery option to place order:</h4>
                         <button type="button" class="btn btn-primary" id="test" style="margin-top: 90px" ;>Store Pick Up
-                </button>
-
-                            <button type="button" class="btn btn-primary" id="test1" style="margin-top: 90px" ;>Home Delivery
-                                    </button>
-                            
-
-
+                        </button>
+                        <button type="button" class="btn btn-primary" id="test1" style="margin-top: 90px" ;>Home
+                            Delivery
+                        </button>
                     </div>
             </form>
         </div>
     </div>
     <div class="container my-5">
-        <div style="text-align:center">
+        <div id="contacts" style="text-align:center">
             <h2>Contact Us</h2>
             <p>For more information or questions you can leave us a message:</p>
         </div>
@@ -179,8 +173,7 @@
                         <option value="thika">Thika</option>
                     </select>
                     <label for="subject">Subject</label>
-                    <textarea id="subject" name="subject" placeholder="Write something"
-                        style="height:170px"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Write something" style="height:170px"></textarea>
                     <input type="submit" value="Submit">
                 </form>
             </div>
